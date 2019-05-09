@@ -3,15 +3,27 @@
 	padding: 0px;
 }
 
-.menu{
+.itensMenu{
 	color: #0b6c3f;
+	border-right: 1px solid #0b6c3f;
+	font-size: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.ultimoItemMenu{
+	border-right: none;
+}
+
+#menu{
+	background-color: white;
 }
 
 #imagem_logo{
-	width: 200px;
-	
+	width: 250px;
 }
 
-.navMenu{
-	position: relative;
+.menuLink{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
