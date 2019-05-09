@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu{
+	color: #0b6c3f;
+}
+
+#imagem_logo{
+	width: 200px;
+	
+}
+
+.navMenu{
+	position: relative;
+}
