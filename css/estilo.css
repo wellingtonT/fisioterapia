@@ -5,7 +5,6 @@
 
 .itensMenu{
 	color: #0b6c3f;
-	border-right: 1px solid #0b6c3f;
 	font-size: 20px;
 	padding-right: 25px;
 	padding-left: 25px;
@@ -26,4 +25,26 @@
 .menuLink{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+}
+
+.rodape {
+	border: 1px solid blue;
+	background-color: #0b6c3f;
+}
+
+.rodape p {
+	margin: 2px;
+	color: #ffffff;
+}
+
+#imagem-rodape {
+	width: 300px;
+}
+
+.texto-rodape {
+	border: 1px solid red;
+	display: inline-block;
+	width: 22%;
+	font-size: 11px;
+	padding-right: 0;
 }
