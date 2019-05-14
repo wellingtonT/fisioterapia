@@ -3,7 +3,51 @@
 	padding: 0px;
 }
 
-.itensMenu{
+p, h2 {
+	color: #0b6c3f;
+}
+
+@media (max-width: 630px)
+{
+ 	.vestibularDiv {
+		display: block;
+		margin-left: 0%;
+		padding-bottom: 1%;
+		padding-top: 3%;
+	}
+	
+	.vestibularDiv p, h2 {
+		text-align: center;
+	}
+	
+	.vestibularDiv h2 {
+		margin-bottom: 5%;
+	}
+	
+	.buttonsAction {
+		display: content;
+	}
+}
+
+@media (min-width: 631px)
+{
+ 	.vestibularDiv {
+		display: inline-block;
+		margin-left: 2%;
+		padding-bottom: 3%;
+		padding-top: 3%;
+	}
+	
+	.vestibularDiv p, h2 {
+		text-align: center;
+	}
+	
+	.vestibularDiv h2 {
+		margin-bottom: 20%;
+	}
+}
+
+.itensMenu{	
 	color: #0b6c3f;
 	font-size: 20px;
 	padding-right: 25px;
@@ -38,7 +82,8 @@
 }
 
 #imagem-rodape {
-	width: 300px;
+	display: inline-block;
+	width: 30%;
 }
 
 .texto-rodape {
@@ -47,4 +92,38 @@
 	width: 22%;
 	font-size: 11px;
 	padding-right: 0;
+}
+
+.vestibularDiv {
+	border: 1px solid red;
+}
+
+.vestibularDiv p {
+	margin: 0px;
+}
+
+.buttonsAction {
+	 display: inline-block;
+	 float: right;
+	 margin-top: 3%;
+	 margin-right: 3%;
+}
+
+.buttonsActionLeft {
+	 display: inline-block;
+}
+
+.buttonsActionRight {
+	display: inline-block;
+}
+
+.btnAction {
+	display: block;
+	margin-bottom: 10%;
+	width: 175px;
+	height: 67px;
+}
+
+.btnLast {
+	margin-bottom: 0;
 }
