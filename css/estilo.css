@@ -27,6 +27,10 @@ p, h2 {
 	.buttonsAction {
 		display: content;
 	}
+	
+	.buttonsAction {
+		display: contents;
+	}
 }
 
 @media (min-width: 631px)
@@ -44,6 +48,15 @@ p, h2 {
 	
 	.vestibularDiv h2 {
 		margin-bottom: 20%;
+		font-size: 45px;
+		font-family: 'Rancho', cursive;
+	}
+	
+	.buttonsAction {
+		 display: inline-block;
+		 float: right;
+		 margin-top: 3%;
+		 margin-right: 3%;
 	}
 }
 
@@ -72,7 +85,6 @@ p, h2 {
 }
 
 .rodape {
-	border: 1px solid blue;
 	background-color: #0b6c3f;
 }
 
@@ -87,26 +99,16 @@ p, h2 {
 }
 
 .texto-rodape {
-	border: 1px solid red;
 	display: inline-block;
 	width: 22%;
 	font-size: 11px;
 	padding-right: 0;
 }
 
-.vestibularDiv {
-	border: 1px solid red;
-}
 
 .vestibularDiv p {
 	margin: 0px;
-}
-
-.buttonsAction {
-	 display: inline-block;
-	 float: right;
-	 margin-top: 3%;
-	 margin-right: 3%;
+	text-align: justify;
 }
 
 .buttonsActionLeft {
@@ -122,8 +124,31 @@ p, h2 {
 	margin-bottom: 10%;
 	width: 175px;
 	height: 67px;
+	background-color: #006c39;
+}
+
+.btnAction:hover{
+	border: 4px solid #006c39;
+	background-color: #006c39;
 }
 
 .btnLast {
 	margin-bottom: 0;
+}
+
+.sobre-o-curso { 
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.sobre-o-curso h2 {
+	text-align: left;
+	font-family: 'Rancho', cursive;
+	font-size: 45px;
+}
+
+.sobre-o-curso p {
+	text-align: justify;
 }
