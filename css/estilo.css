@@ -1,10 +1,14 @@
-*{
-	margin: 0px;
-	padding: 0px;
+body, html {
+	margin: 0;
+	padding: 0;
 }
 
 p, h2 {
 	color: #0b6c3f;
+}
+
+.carousel{
+	margin-top: -80px;
 }
 
 @media (max-width: 630px)
@@ -24,14 +28,27 @@ p, h2 {
 		margin-bottom: 5%;
 	}
 	
-	.buttonsAction {
-		display: content;
+	div.rodape-text > p {
+		font-size: 15px !important;
+		margin: 2px;
+		color: white;
 	}
-	
-	.buttonsAction {
-		display: contents;
+
+	.footer-image{
+		padding: 0 !important;
+	}
+	.carousel{
+		height: 200px;
+		margin-top: 20px;
+	}
+	.brand{
+		right: 0;
+		top: 0;
+		margin: 5px;
 	}
 }
+
+
 
 @media (min-width: 631px)
 {
@@ -43,20 +60,19 @@ p, h2 {
 	}
 	
 	.vestibularDiv p, h2 {
-		text-align: center;
+		text-align: start;
 	}
 	
 	.vestibularDiv h2 {
-		margin-bottom: 20%;
 		font-size: 45px;
 		font-family: 'Rancho', cursive;
 	}
 	
-	.buttonsAction {
-		 display: inline-block;
-		 float: right;
-		 margin-top: 3%;
-		 margin-right: 3%;
+	div.rodape-text > p {
+		font-size: 15px;
+		margin: 2px;
+		color: white;
+		
 	}
 }
 
@@ -84,25 +100,21 @@ p, h2 {
 	padding-right: 0px !important;
 }
 
-.rodape {
+footer{
 	background-color: #0b6c3f;
+	height: 100%;
 }
 
-.rodape p {
-	margin: 2px;
-	color: #ffffff;
+.footer-image{
+    position: relative;
+    top: 50%;
+	transform: translateY(-50%);
 }
-
-#imagem-rodape {
-	display: inline-block;
-	width: 30%;
-}
-
-.texto-rodape {
-	display: inline-block;
-	width: 22%;
+div.rodape-text > p {
 	font-size: 11px;
-	padding-right: 0;
+	margin: 2px;
+	color: white;
+	
 }
 
 
@@ -118,7 +130,6 @@ p, h2 {
 .buttonsActionRight {
 	display: inline-block;
 }
-
 .btnAction {
 	display: block;
 	margin-bottom: 10%;
@@ -152,3 +163,34 @@ p, h2 {
 .sobre-o-curso p {
 	text-align: justify;
 }
+
+.carousel-item {
+	height: 100vh;
+	width: 100%;
+	min-height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+  }
+
+
+	
+
+	@media (min-width: 768px) and (max-width: 991.98px) { 
+		.brand{
+			right: 0;
+			top: 0;
+			margin: 5px;
+		}
+		.carousel-item{
+				height: unset !important;
+		}
+
+	}
+
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		.carousel-item{
+			height: unset !important;
+	}
+	 }
