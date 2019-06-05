@@ -11,7 +11,13 @@ p, h2 {
 	margin-top: -80px;
 }
 
-@media (max-width: 630px)
+@media screen and(max-width: 561px) {
+	.sobre-o-curso {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 767px)
 {
  	.vestibularDiv {
 		display: block;
@@ -46,11 +52,15 @@ p, h2 {
 		top: 0;
 		margin: 5px;
 	}
+
+	.sobre-o-curso {
+		margin-top: 25%;
+	}
 }
 
 
 
-@media (min-width: 631px)
+@media (min-width: 767px)
 {
  	.vestibularDiv {
 		display: inline-block;
@@ -73,6 +83,10 @@ p, h2 {
 		margin: 2px;
 		color: white;
 		
+	}
+
+	.sobre-o-curso {
+		margin-top: 0px;
 	}
 }
 
